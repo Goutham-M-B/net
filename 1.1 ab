@@ -1,0 +1,39 @@
+using System;
+
+
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            if(args.Length==0) {
+			Console.WriteLine("No arguments found");
+			}
+			else{
+			Console.WriteLine("First Name is " + args[0]);
+            Console.WriteLine("Last Name is " + args[1]);
+            }
+			Console.ReadLine();
+        }
+    }
+
+b
+
+using System;
+class Sample
+  {
+      static void Main(string[] args){
+      int SUM ;
+      int AVERAGE ;
+      int X ;
+      int Y ;
+      int Z;
+        X = Convert.ToInt32(args[0]);
+        Y = Convert.ToInt32(args[1]);
+        Z = Convert.ToInt32(args[2]);
+          SUM = X + Y + Z;
+          AVERAGE = (X + Y + Z) / 3;
+  Console.WriteLine("Sum is: " + SUM);
+  Console.WriteLine("Average is:" + AVERAGE);
+  }
+}
